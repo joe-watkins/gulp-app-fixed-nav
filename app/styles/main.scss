@@ -1,6 +1,8 @@
 $icon-font-path: "/bower_components/bootstrap-sass/vendor/assets/fonts/bootstrap/";
 
 // bower:scss
+@import "_fixed-responsive-nav";
+@import "_hero-sections";
 @import "../bower_components/bootstrap-sass/vendor/assets/stylesheets/bootstrap.scss";
 // endbower
 
