@@ -1,0 +1,32 @@
+.hero-section {
+	width: 100%;
+	height: 100%;
+	display: table;
+	background: #000;
+	overflow:hidden;
+	position:relative;
+	.hero-container {
+		display: table-cell;
+	  vertical-align: middle;
+  	margin: auto 0;
+  	text-align: center;
+  	.hero-unit {
+  		h1 {
+  			font-size: 46px;
+  			color: #FFF;
+			  font-weight: 500;
+			  border: 6px solid #FFF;
+			  display: inline-block;
+			  padding: 30px 40px;
+			  -webkit-box-sizing: border-box;
+		  	box-sizing: border-box;
+  		}
+  	}
+	}
+	&.b {
+		background: lighten(#000,10%);
+	}
+	&.c {
+		background: lighten(#000,20%);
+	}
+}
